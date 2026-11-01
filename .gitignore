@@ -1,0 +1,25 @@
+# Rust and cargo-near build output
+target/
+**/*.rs.bk
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.secret
+*-key.json
+*-keys.json
+*.credentials.json
+credentials/
+.near-credentials/
+
+# Local deploy arguments
+init-args.json
+
+# Editors and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
